@@ -75,7 +75,6 @@ const reset=()=>{
     titleRef.current.innerHTML=`Tic Tac Toe In <span>React</span>`
     box_array.map((e)=>{
         e.current.innerHTML="";
-        return;
     }) 
 }  
   return ( 
