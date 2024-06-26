@@ -70,6 +70,7 @@ const won=(winner)=>{
     }
 }
 const reset=()=>{
+    setCount(0);
     setLock(false);
     data=["","","","","","","","",""];
     titleRef.current.innerHTML=`Tic Tac Toe In <span>React</span>`
